@@ -1,3 +1,9 @@
+font-face {
+    font-family: 'ConeriaScript';
+    src: url(../fonts/Demo_ConeriaScript.ttf);
+    font-weight: normal;
+}
+
 img{
 	width:100%;
 }
@@ -14,16 +20,52 @@ body{
 	background-size: cover;
 	background-size: repeat;
 }
-
-
-
-
-
-
-
-
-
-
+.poster-section{
+	padding:20px 0;
+	position: relative;
+}
+.poster-section > h1{
+	color:white;
+	margin-bottom: 20px;
+}
+.poster-wrapper img{
+	border:5px solid white;
+}
+.poster-wrapper h3{
+	position: absolute;
+	margin:0;
+	color:white;
+	top:50%;
+	left:0;
+	right:0;
+	font-size: 36px;
+	transform:translateY(-50%);
+}
+footer li{
+	display:inline;
+	margin:0 30px;
+	color:white;
+}
+footer{
+	background-color: black;
+	padding:20px;
+}
+.ticket{
+	width:95%;
+	margin-top: 100px;
+}
+.contact{
+	margin-top: 100px;
+	font-family:'ConeriaScript';
+	color:white;
+}
+.form .form-control{
+	margin:20px;
+	width:50%;
+}
+.form .maasge{
+    height: 200px;
+}
 
 
 

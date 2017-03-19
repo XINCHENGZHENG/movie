@@ -3,7 +3,7 @@
 <head>
 	<title>MovieHub</title>
 </head>
-<body background="img/background.jpg">
+<body>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -88,24 +88,88 @@
 	<div class="container text-center poster-section">
 		<h1>Upcoming Movies</h1>
 		<div class="row">
-			<div class="col-sm-4 poster-wrapper">
-				<a href="#">
+			<div class="col-sm-4 poster-wrapper" >
+				<a href="#" data-toggle="modal" data-target="#modal1">
 					<img src="img/movie-poster-0.jpg" alt="Avengers">
+					<h3>Avengers</h3>
 				</a>
 			</div>
 			<div class="col-sm-4 poster-wrapper">
-				<a href="#">
+				<a href="#" data-toggle="modal" data-target="#modal2">
 					<img src="img/movie-poster-1.jpg" alt="Star Wars">
+					<h3>Star Wars</h3>
 				</a>
 			</div>
 			<div class="col-sm-4 poster-wrapper">
-				<a href="#">
+				<a href="#" data-toggle="modal" data-target="#modal3">
 					<img src="img/movie-poster-2.jpg" alt="Titanic">
+					<h3>Titanic</h3>
 				</a>
 			</div>
 		</div>
 
 	</div>
+<!-- modal1 -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="modal1" ">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xqhe9dMQxYc" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- modal2 -->
+<div class="modal fade" tabindex="-1" role="dialog" id="modal2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sGbxmsDFVnE" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- modal3 -->
+<div class="modal fade" tabindex="-1" role="dialog" id="modal3">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zCy5WQ9S4c0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<footer>
+  <div class="text-center">
+  	<a href="aboutme.html"><li>About Us</li></a>
+  	<a href="movienews.html"><li>Movie News</li></a>
+  	<a href="termsofuse.html"><li>Terms of Use</li></a>
+  </div>
+</footer>
 </body>
 </html>
 
